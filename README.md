@@ -3,9 +3,10 @@
 Supporting repository for the paper M. Watson, B. Awwad Shiekh Hasan, N. Al Moubayed "Membership Inference Attacks and 
 Defences Using Deep Learning Model Explanations", Under Review, 2023.
 
-Code to reproduce all experiments included in the paper are included. Note that all model training and SHAP/IG 
+Code to reproduce all experiments included in the paper are included. Note that all model training and SHAP 
 calculation code has CLI options for setting the random seed used. To accurately reproduce our
-experiments, one must set the random seed to those reported in the paper.
+experiments, one must set the random seed to those reported in the paper. `requirements.txt` include all Python
+dependencies required.
 
 All models are saved as state dicts. All runnable scripts accept a number of CLI arguments which are explained through 
 comments and the use of `python script_name.py -h`. All code is in the `src/` directory.
